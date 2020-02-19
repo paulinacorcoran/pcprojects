@@ -1,0 +1,96 @@
+h1
+/* this will grab all the h1 tags */
+{
+  color: red;
+  font-family: 'Zhi Mang Xing', cursive;
+}
+/* this is a class */
+/* Everything within the container is affected. we have created a container within the division tags in html. Which is also noted in the css document where it says .container. Additionally, we have created a separate container for the header as noted in the css document as well. */
+.container
+{
+  background-color: lightgreen;
+  width: 600px;
+  margin: auto;
+  /* margin of webpage. look up different margin tags online with css margin */
+  padding: 20px;
+  /* area between text and textbox */
+  width:50%;
+  box-shadow: 5px 10px 10px 10px red;
+  /* first is the amount of pixels to the right, how many down, blur, then spread, then the color. To reverse the direction by using negatives. */
+  border-radius: 8px;
+  /* this will round out the corners, the larger the number the more circular it will be */
+}
+/* this is an id */
+#flower {
+  background-color: #1fa7e9;
+  /* Right click to find color picker. You can apply either the rgb with the notation rgb(number, values, here) or the hex code with a # then the number */
+  width: 400px;
+}
+.container h1{
+  font-size: 4em;
+  /* The standard font size in html is 16, so whatever number you put will be multiplied by 16 as the size */
+}
+p
+{
+  font-family: "Times New Roman, Times, Serif"
+}
+/* this is class on the div in my HTML */
+.container
+{
+  margin: auto;
+  padding: 20px;
+  background-color: lightblue;
+  width: 50%;
+  box-shadow: 6px 7px 5px 2px #ededed;
+  border-radius: 20px;
+}
+/* This will affect all the h1 inside my class container */
+.container h1 {
+  font-size: 4em;
+}
+/* We added this class to my sidebar */
+.sidebar {
+  float: left;
+  margin-left: 80px;
+  padding: 20px;
+  background-color: lightpink;
+  width: 10%;
+  box-shadow: 6px 7px 5px 2px #ededed;
+  border-radius: 20px;
+}
+/* we use this to create a style for my navigation tag */
+.navigation {
+  display: table;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+/* this was used in my ul tag inside my nav */
+.horizontaLine {
+  padding-top: 20px;
+}
+/* this will affect all the li childs inside my horizontaLine */
+.horizontaLine li {
+  display: inline;
+  margin: 20px;
+  padding: 20px 60px 20px 60px;
+  background-color: white;
+  width: 10%;
+  border-radius: 20px;
+}
+/* this will affect all the a tags nested on the li elements */
+.horizontaLine li a {
+  color: gray;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+/* This will only affect my style when the cursor is on top of my a tag */
+.horizontaLine li a:hover {
+  color: red;
+}
+/* This is an id */
+#dog
+{
+  width: 80%;
+  margin: auto;
+}

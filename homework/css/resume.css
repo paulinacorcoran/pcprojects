@@ -1,0 +1,130 @@
+body
+{
+    background-color: #fafafa;
+}
+
+.box
+{
+  width: 55%;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 50px;
+  background-color: white;
+  font-size: 24px;
+  font-family: 'Open Sans';
+  box-shadow: 2px 5px 10px 2px rgb(233, 233, 233);
+  border: solid;
+  border-color: red;
+  /* opacity: 1; */
+}
+
+
+.box img{
+  display: block;
+  margin: auto;
+}
+
+.box address
+{
+  width: 70%;
+  margin: left;
+  font-size: 16px;
+}
+
+
+.box3
+{
+  width: 55%;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 50px;
+  background-color: white;
+  font-size: 18px;
+  font-family: 'Open Sans';
+  box-shadow: 2px 5px 10px 2px rgb(233, 233, 233);
+}
+
+.box4
+{
+  width: 55%;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 50px;
+  background-color: white;
+  font-size: 18px;
+  font-family: 'Open Sans';
+  box-shadow: 2px 5px 10px 2px rgb(233, 233, 233);
+}
+
+
+
+h1
+{
+font-family: 'Bebas Neue'
+}
+
+
+h2
+{
+font-family: 'Bebas Neue';
+color: red;
+}
+
+
+h3
+{
+  font-family: 'Bebas Neue';
+}
+
+
+h5
+{
+  font-family: 'Bebas Neue'
+}
+
+
+
+a
+{
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover
+{
+  color: pink;
+}
+
+.table {
+  width: 75%;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 50px;
+  background-color: white;
+  font-size: 18px;
+  font-family: 'Open Sans';
+  box-shadow: 2px 5px 10px 2px rgb(233, 233, 233);
+}
+
+.interests
+{
+  width: 25%;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 50px;
+  background-color: white;
+  font-size: 18px;
+  font-family: 'Open Sans';
+  box-shadow: 2px 5px 10px 2px rgb(233, 233, 233);
+}
+
+
+
+
+/* .linkBox a
+{
+  margin: 80px;
+  width: 200px;
+  padding: 20px;
+  background-color: blue;
+} */

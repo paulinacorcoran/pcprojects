@@ -10,51 +10,71 @@
     <meta name="author" content="Paulina Corcoran">
     <meta name="description" content="basic HTML example">
     <meta name="keywords" content="HTML, JS, CSS, Basic example">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="transitions" href="class/Class6-1/transitions.html">
+    <link href="https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
+
+    <!--This will link this index document to our css document-->
+    <!-- Media query for narrow browser width -->
+   <link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/mobile.css">
+   <meta name="viewport" content="initial-scale=1">
   </head>
+
   <!-- This is the body of my website -->
   <body>
     <!-- This is my header  -->
     <!--a href is anchor, click a for that. it is the link to another website-->
     <!-- the word you type next to the website will appear as a button on your own site-->
     <header>
-      <nav>
-        <ul>
+      <nav class="navigation">
+        <ul class="horizontaLine">
+          <li> <a href="Class6-1/transitions.html"> Class 6.1 </a> </li>
           <li> <a href="https://www.apple.com/"> apple </a> </li>
           <li> <a href="https://www.hulu.com/"> hulu </a> </li>
           <li> <a href="https://www.google.com/"> google </a> </li>
         </ul>
       </nav>
     </header>
-    <section>
-<!-- Use aside to create side bars -->
-<aside class="">
-  <ul>
-    <li>item 1</li>
-    <li>item 2</li>
-    <li>item 3</li>
-  </ul>
-  <ol>
-    <li>item 1</li>
-    <li>item 2</li>
-    <li>item 3</li>
-  </ol>
-</aside>
-<!-- Use article for magazine articles, posts -->
-<article class="">
-  <h1>Title</h1>
-  <h2>Subtitle</h2>
-  <h3>Subtitle2</h3>
-  <p>
-    lorem ipsum dolor sit amet, lorem ipsum dolor sit amet, lorem ipsum dolor sit amet
-    <strong>lorem ipsum</strong>
-    <b>Bold</b>
-    <i>Italic</i>
-    <em>lorem ipsum</em>
-  </p>
-  <img src="img/orange flower.jpg" alt="Orange flower">
-</article>
 
-    </section>
+
+      <!-- Use aside to create side bars -->
+      <aside class="sidebar">
+        <ul>
+          <li>item 1</li>
+          <li>item 2</li>
+          <li>item 3</li>
+        </ul>
+        <ol>
+          <li>item 1</li>
+          <li>item 2</li>
+          <li>item 3</li>
+        </ol>
+      </aside>
+
+<div class="container">
+<section>
+      <h1>Title</h1>
+  <!-- Use article for magazine articles, posts -->
+  <article id="flower">
+
+    <h2>Subtitle</h2>
+    <h3>Subtitle2</h3>
+    <p>
+      lorem ipsum dolor sit amet, lorem ipsum dolor sit amet, lorem ipsum dolor sit amet
+      <strong>lorem ipsum</strong>
+      <b>Bold</b>
+      <i>Italic</i>
+      <em>lorem ipsum</em>
+    </p>
+    <img src="img/orange flower.jpg" alt="Orange flower" height="400px" width="500px">
+  </article>
+</section>
+</div>
+
+
+
+
+
 <table>
   <!-- These are table headers -->
   <tr>
