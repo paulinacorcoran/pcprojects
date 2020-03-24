@@ -1,0 +1,157 @@
+.grid1
+{
+  width: 80%;
+  height: 90vh;
+  margin: auto;
+  margin-top: 150px;
+
+  display: inline-grid;
+  grid-template-areas:  "hea hea"
+                        "main main2"
+                        "main main2"
+                        "foo foo";
+
+  grid-template-rows: 10%% 40% 40% 10%;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+    .header
+    {
+      grid-area: hea;
+      background-color: lightblue;
+    }
+    .main
+    {
+      grid-area: main;
+      background-color: lightgreen;
+    }
+    .main2
+    {
+      grid-area: main2;
+      background-color: pink;
+    }
+    .footer
+    {
+      grid-area: foo;
+      background-color: lightgray;
+    }
+
+
+
+.body
+{
+    background-color: #fafafa;
+}
+
+.box
+{
+  width: 55%;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 50px;
+  background-color: white;
+  font-size: 24px;
+  font-family: 'Open Sans';
+  box-shadow: 2px 5px 10px 2px rgb(233, 233, 233);
+  border: solid;
+}
+
+
+.box img{
+  display: block;
+  margin: auto;
+}
+
+.box address
+{
+  width: 70%;
+  margin: left;
+  font-size: 16px;
+}
+
+
+.box3
+{
+  width: 55%;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 50px;
+  background-color: white;
+  font-size: 18px;
+  font-family: 'Open Sans';
+  box-shadow: 2px 5px 10px 2px rgb(233, 233, 233);
+}
+
+.box4
+{
+  width: 55%;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 50px;
+  background-color: white;
+  font-size: 18px;
+  font-family: 'Open Sans';
+  box-shadow: 2px 5px 10px 2px rgb(233, 233, 233);
+}
+
+
+
+h1
+{
+font-family: 'Bebas Neue'
+}
+
+
+h2
+{
+font-family: 'Bebas Neue';
+}
+
+
+h3
+{
+  font-family: 'Bebas Neue';
+}
+
+
+h5
+{
+  font-family: 'Bebas Neue'
+}
+
+
+
+a
+{
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover
+{
+  color: pink;
+}
+
+.table {
+  width: 75%;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 50px;
+  background-color: white;
+  font-size: 18px;
+  font-family: 'Open Sans';
+  box-shadow: 2px 5px 10px 2px rgb(233, 233, 233);
+}
+
+.interests
+{
+  width: 25%;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 50px;
+  background-color: white;
+  font-size: 18px;
+  font-family: 'Open Sans';
+  box-shadow: 2px 5px 10px 2px rgb(233, 233, 233);
+}
