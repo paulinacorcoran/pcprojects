@@ -185,14 +185,13 @@ h1
   padding: 25px;
 }
 
-.smallGridBug div:nth-child(2)
-{
-background-color: lightblue;
+.smallGridBug div:nth-child(2) p{
+background-color: lightpink;
 }
 
-.smallGridBug div:nth-child(3)
-{
-background-color: lightgreen;
+
+.smallGridBug div:nth-child(3) p{
+background-color: lightpink;
 }
 
 

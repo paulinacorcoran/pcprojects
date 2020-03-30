@@ -41,4 +41,13 @@ $("#toggleP").click( function(){
 
 });
 
+$("#cssP").click( function(){
+  $(".smallGridBug div:nth-child(2) p").css("background-color", "lightblue");
+});
+
+$("#cssP").click( function(){
+  $(".smallGridBug div:nth-child(3) p").css("background-color", "lightgreen");
+});
+
+
 });
