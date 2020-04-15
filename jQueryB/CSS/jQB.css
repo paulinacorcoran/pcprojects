@@ -1,0 +1,180 @@
+.red{
+background-color: rgb(245, 132, 116);
+}
+
+.blue{
+background-color: rgb(95, 157, 230);
+}
+
+
+
+body{
+  margin: 20px;
+  font-family: sans-serif;
+  background-color: #d6d6d6;
+
+}
+
+.intro h1 {
+  color: blue;
+}
+
+.gridMain
+{
+  width: 80%;
+  height: 90vh;
+  margin: auto;
+  display: grid;
+  grid-template-areas:
+    "na na na"
+    "ma ma ma"
+    "fo fo fo";
+  grid-template-rows: .2fr 1fr .5fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.gridMain nav
+{
+  grid-area: na;
+  background-color: #f1f1f1;
+  border-bottom: .5px solid #8e8e8e;
+}
+
+
+
+
+.gridMain main
+{
+  grid-area: ma;
+  background-color: #e2e2e2;
+}
+
+.gridMain footer
+{
+  grid-area: fo;
+  background-color: #f1f1f1;
+}
+
+.intro
+{
+  width: 95%;
+  height: 90%;
+  margin: 0 auto;
+  padding: 15px;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+}
+
+
+
+.gridContent
+{
+  width: 95%;
+  height: 90%;
+  margin: 0 auto;
+  padding: 15px;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.gridContent div
+{
+  border: 1px solid #8e8e8e;
+  font-size: 16px;
+  padding: 5px;
+  }
+
+
+
+/*photo grid begins here*/
+
+.photoGallery
+{
+  /* Right here */
+  width: 90%;
+  height: 90%;
+  margin: .5 auto;
+  margin-left: 50px;
+  padding: 20px;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+}
+
+.photoGallery img
+{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+
+
+
+/*footer contact info grid*/
+.contactInfo
+{
+  width: 95%;
+  height: 90%;
+  margin: 0 auto;
+  padding: 15px;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+nav ul
+{
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  align-content: center;
+  list-style-type: none;
+  font-size: 0;
+}
+
+nav ul li
+{
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+nav ul li a
+{
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+  font-family: sans-serif;
+  color: #8e8e8e;
+  font-size: 18px;
+  text-align: center;
+  line-height: 5;
+  text-decoration: none;
+  transition: background .3s;
+}
+
+nav ul li a:hover
+{
+  background-color: #d5d5d5;
+}
+
+
+footer p
+{
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+
+hr
+{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
