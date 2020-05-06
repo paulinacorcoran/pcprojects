@@ -1,0 +1,451 @@
+/* this is the css for the mobile version of the site. */
+
+body
+{
+  margin:0;
+  padding:0;
+}
+
+
+.gridmain
+{
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  display: grid;
+  grid-template-areas:
+  "nav"
+  "ti"
+  "im"
+  "co"
+  "fo"
+  ;
+  grid-template-columns: 1fr;
+  grid-template-rows: .2fr .1fr .4fr .6fr .3fr;
+
+}
+.header
+{
+  grid-area: nav;
+  background-color: pink;
+}
+
+.header nav
+{
+  background-color: yellow;
+  width: 100%;
+  margin:0 auto;
+  padding:0;
+}
+
+.header nav a
+{
+  display: block;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-size: 25px;
+  background-color: red;
+  transition: background-color .4s;
+}
+.header nav a:hover
+{
+  background-color: blue;
+}
+
+
+
+.welcome
+{
+  grid-area: ti;
+  background-color: lightblue;
+}
+
+.welcome h1
+{
+  text-align: center;
+}
+
+.headshot
+{
+  grid-area: im;
+  background-color: lightyellow;
+}
+.headshot img
+{
+  display: block;
+  width: 100%;
+}
+.about
+{
+  grid-area: co;
+  background-color: lightgray;
+}
+.inspiration
+{
+  grid-area: fo;
+  background-color: lightgreen;
+}
+
+
+.aboutgrid
+{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: grid;
+  grid-template-areas:
+  "nav"
+  "ab"
+  "bg"
+  "in"
+  "fa"
+  "ft"
+  ;
+
+  grid-template-columns: 1fr;
+  grid-template-rows: .2fr .2fr .3fr .6fr .6fr .8fr;
+
+}
+
+.header
+{
+  grid-area: nav;
+  background-color: lightblue;
+}
+
+.header nav
+{
+  background-color: lightblue;
+  height: 100%;
+  width: 40%;
+  margin:0 auto;
+  padding:0;
+}
+
+.header nav a
+{
+    display: inline-block;
+    text-decoration: none;
+    width: 33%;
+    height: 80%;
+    line-height: 4;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    background-color: lightgray;
+    transition: background-color .4s;
+  }
+  .header nav a:hover
+  {
+    background-color: purple;
+  }
+
+  .aboutme
+  {
+    grid-area: ab;
+  background-color: lightblue;
+  }
+
+  .aboutme h1
+  {
+    text-align: center;
+    font-size: 20px;
+  }
+
+
+  .background
+  {
+    grid-area: bg;
+    background-color: lightgray;
+  }
+
+.background p
+{
+  font-size: 12px;
+  padding: 50px;
+}
+
+  .interests
+  {
+    grid-area: in;
+    background-color: lightblue;
+    padding: 50px;
+    text-align: center;
+  }
+
+
+.interests h2
+{
+  font-size: 20px;
+  padding-left: 100px;
+}
+
+  .interests li
+  {
+    font-size: 12px;
+    padding-left: 20px;
+  }
+
+.family
+{
+  grid-area: fa;
+}
+
+  .future
+  {
+    grid-area: ft;
+    background-color: lightgray;
+    padding: 50px;
+  }
+
+  .future p
+  {
+    font-size: 12px;
+  }
+
+
+
+
+  .educationgrid
+  {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 25px;
+    display: grid;
+    grid-template-areas:
+    "nav"
+    "img"
+    "edu"
+    ;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: .2fr .3fr .5fr;
+
+  }
+
+  .header
+  {
+    grid-area: nav;
+    background-color: lightblue;
+  }
+
+  .header nav
+  {
+    background-color: lightblue;
+    height: 100%;
+    width: 40%;
+    margin:0 auto;
+    padding:0;
+    padding-bottom: 25px;
+  }
+
+  .header nav a
+  {
+      display: inline-block;
+      text-decoration: none;
+      width: 33%;
+      height: 80%;
+      line-height: 4;
+      margin: auto;
+      text-align: center;
+      font-size: 16px;
+      background-color: lightgray;
+      transition: background-color .4s;
+    }
+    .header nav a:hover
+    {
+      background-color: purple;
+    }
+
+  .image
+  {
+    grid-area: img;
+    background-color: lightblue;
+    padding-bottom: 25px;
+    text-align: center;
+    display: block;
+  }
+
+  .education
+  {
+    grid-area: edu;
+    background-color: lightgray;
+  }
+
+  h1
+  {
+    text-align: center;
+    font-size: 20px;
+    grid-area: h1;
+    background-color: lightgray;
+  }
+
+  h2
+  {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  p
+  {
+    font-size: 12px;
+    padding: 25px;
+  }
+
+
+  .header
+  {
+    grid-area: nav;
+    background-color: lightblue;
+  }
+
+  .header nav
+  {
+    background-color: lightblue;
+    height: 100%;
+    width: 40%;
+    margin:0 auto;
+    padding:0;
+  }
+
+  .header nav a
+  {
+      display: inline-block;
+      text-decoration: none;
+      width: 33%;
+      height: 80%;
+      line-height: 4;
+      margin: auto;
+      text-align: center;
+      font-size: 45px;
+      background-color: lightgray;
+      transition: background-color .4s;
+    }
+    .header nav a:hover
+    {
+      background-color: purple;
+    }
+
+  body
+  {
+      background-color: #fafafa;
+  }
+
+  .box
+  {
+    width: 55%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 50px;
+    background-color: white;
+    font-size: 24px;
+    font-family: 'Open Sans';
+    box-shadow: 2px 5px 10px 2px rgb(233, 233, 233);
+    border: solid;
+    padding: 50px;
+  }
+
+
+  .box img{
+    display: block;
+    margin: auto;
+    padding: 50px;
+  }
+
+  .box address
+  {
+    width: 70%;
+    margin: left;
+    font-size: 16px;
+  }
+
+
+  .box3
+  {
+    width: 55%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 50px;
+    background-color: white;
+    font-size: 18px;
+    font-family: 'Open Sans';
+    box-shadow: 2px 5px 10px 2px rgb(233, 233, 233);
+    border: solid;
+  }
+
+  .box4
+  {
+    width: 55%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 50px;
+    background-color: white;
+    font-size: 18px;
+    font-family: 'Open Sans';
+    box-shadow: 2px 5px 10px 2px rgb(233, 233, 233);
+    border: solid;
+  }
+
+
+
+  h1
+  {
+  font-family: 'Bebas Neue'
+  }
+
+
+  h2
+  {
+  font-family: 'Bebas Neue';
+  }
+
+
+  h3
+  {
+    font-family: 'Bebas Neue';
+  }
+
+
+  h5
+  {
+    font-family: 'Bebas Neue'
+  }
+
+
+
+  a
+  {
+    text-decoration: none;
+    color: gray;
+  }
+
+  a:hover
+  {
+    color: pink;
+  }
+
+  .table {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 50px;
+    background-color: white;
+    font-size: 18px;
+    font-family: 'Open Sans';
+    box-shadow: 2px 5px 10px 2px rgb(233, 233, 233);
+    border: solid;
+  }
+
+  .interests
+  {
+    width: 25%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 50px;
+    background-color: white;
+    font-size: 18px;
+    font-family: 'Open Sans';
+    box-shadow: 2px 5px 10px 2px rgb(233, 233, 233);
+    border: solid;
+  }

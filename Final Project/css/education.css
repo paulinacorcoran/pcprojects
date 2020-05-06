@@ -1,0 +1,86 @@
+/* this is my education css */
+.educationgrid
+{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: grid;
+  grid-template-areas:
+  "nav nav nav"
+  "img img img"
+  "edu edu edu"
+  ;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: .2fr .3fr .5fr;
+
+}
+
+.header
+{
+  grid-area: nav;
+  background-color: lightblue;
+}
+
+.header nav
+{
+  background-color: lightblue;
+  height: 100%;
+  width: 40%;
+  margin:0 auto;
+  padding:0;
+  padding-bottom: 200px;
+}
+
+.header nav a
+{
+    display: inline-block;
+    text-decoration: none;
+    width: 33%;
+    height: 80%;
+    line-height: 4;
+    margin: auto;
+    text-align: center;
+    font-size: 45px;
+    background-color: lightgray;
+    transition: background-color .4s;
+  }
+  .header nav a:hover
+  {
+    background-color: purple;
+  }
+
+.image
+{
+  grid-area: img;
+  background-color: lightblue;
+  padding-bottom: 100px;
+  text-align: center;
+  display: block;
+}
+
+.education
+{
+  grid-area: edu;
+  background-color: lightgray;
+}
+
+h1
+{
+  text-align: center;
+  font-size: 80px;
+  grid-area: h1;
+  background-color: lightgray;
+}
+
+h2
+{
+  text-align: center;
+  font-size: 50px;
+}
+
+p
+{
+  font-size: 30px;
+  padding: 50px;
+}

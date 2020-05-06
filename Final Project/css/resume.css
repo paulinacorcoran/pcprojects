@@ -1,0 +1,161 @@
+/* this is my resume css */
+/* This is the resume.html css! */
+
+
+.header
+{
+  grid-area: nav;
+  background-color: lightblue;
+}
+
+.header nav
+{
+  background-color: lightblue;
+  height: 100%;
+  width: 40%;
+  margin:0 auto;
+  padding:0;
+}
+
+.header nav a
+{
+    display: inline-block;
+    text-decoration: none;
+    width: 33%;
+    height: 80%;
+    line-height: 4;
+    margin: auto;
+    text-align: center;
+    font-size: 45px;
+    background-color: lightgray;
+    transition: background-color .4s;
+  }
+  .header nav a:hover
+  {
+    background-color: purple;
+  }
+
+body
+{
+    background-color: #fafafa;
+}
+
+.box
+{
+  width: 55%;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 50px;
+  background-color: white;
+  font-size: 24px;
+  font-family: 'Open Sans';
+  box-shadow: 2px 5px 10px 2px rgb(233, 233, 233);
+  border: solid;
+  padding: 50px;
+}
+
+
+.box img{
+  display: block;
+  margin: auto;
+  padding: 50px;
+}
+
+.box address
+{
+  width: 70%;
+  margin: left;
+  font-size: 16px;
+}
+
+
+.box3
+{
+  width: 55%;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 50px;
+  background-color: white;
+  font-size: 18px;
+  font-family: 'Open Sans';
+  box-shadow: 2px 5px 10px 2px rgb(233, 233, 233);
+  border: solid;
+}
+
+.box4
+{
+  width: 55%;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 50px;
+  background-color: white;
+  font-size: 18px;
+  font-family: 'Open Sans';
+  box-shadow: 2px 5px 10px 2px rgb(233, 233, 233);
+  border: solid;
+}
+
+
+
+h1
+{
+font-family: 'Bebas Neue'
+}
+
+
+h2
+{
+font-family: 'Bebas Neue';
+}
+
+
+h3
+{
+  font-family: 'Bebas Neue';
+}
+
+
+h5
+{
+  font-family: 'Bebas Neue'
+}
+
+
+
+a
+{
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover
+{
+  color: pink;
+}
+
+.table {
+  width: 75%;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 50px;
+  background-color: white;
+  font-size: 18px;
+  font-family: 'Open Sans';
+  box-shadow: 2px 5px 10px 2px rgb(233, 233, 233);
+  border: solid;
+}
+
+.interests
+{
+  width: 25%;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 50px;
+  background-color: white;
+  font-size: 18px;
+  font-family: 'Open Sans';
+  box-shadow: 2px 5px 10px 2px rgb(233, 233, 233);
+  border: solid;
+}
+
+/* This is the end of the resume.html css! */
